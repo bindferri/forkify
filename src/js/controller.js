@@ -4,7 +4,6 @@ import * as model from './model';
 import recipeView from "./views/recipeView";
 import resultsView from "./views/resultsView"
 import paginationView from "./views/paginationView";
-import {state} from "./model";
 import bookmarkView from "./views/bookmarkView";
 import addRecipeView from "./views/addRecipeView";
 
@@ -114,3 +113,5 @@ paginationView.clickEventListener(updatePagination);
 
 //Update Servings When Buttons Clicked
 recipeView.clickServingsListener(updateServings);
+
+console.log("BRINDOWLLO")
